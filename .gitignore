@@ -1,0 +1,29 @@
+# Python运行产生的缓存
+__pycache__/
+*.py[cod]
+
+# 本地虚拟环境
+.venv/
+venv/
+
+# API密钥和其他隐私配置
+.env
+
+# 编辑器本地配置
+.vscode/
+.idea/
+
+# 外部下载的仓库和原始数据
+external/
+
+# 程序生成的数据
+data/processed/
+data/noise_packets/
+
+# 实验输出
+results/raw_outputs/
+results/metrics/
+results/figures/
+
+# Jupyter缓存
+.ipynb_checkpoints/
